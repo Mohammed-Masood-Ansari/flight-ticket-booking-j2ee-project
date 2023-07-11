@@ -53,7 +53,7 @@
 							<td><%=addFlight.getArrivalTime() %></td>	
 							<td><%=addFlight.getFlightEconomyPrice() %></td>	
 							<td><%=addFlight.getFlightBusinessPrice() %></td>	
-							<td><a href="bookYourFlight?flightNumber=<%=addFlight.getFlightNumber()%>">BookYourTicket</a></td>
+							<td><a href="user-book-flight.jsp?flightNumber=<%=addFlight.getFlightNumber()%>">BookYourTicket</a></td>
 						</tr>
 					<%}%>
 					
@@ -69,7 +69,7 @@
 							<td><%=addFlight.getArrivalTime() %></td>	
 							<td><%=addFlight.getFlightEconomyPrice() %></td>	
 							<td><%=addFlight.getFlightBusinessPrice() %></td>	
-							<td><a href="bookYourFlight?flightNumber=<%=addFlight.getFlightNumber()%>">BookYourTicket</a></td>
+							<td><a href="user-book-flight.jsp?flightNumber=<%=addFlight.getFlightNumber()%>">BookYourTicket</a></td>
 						</tr>
 					<%}%>
 					
@@ -85,7 +85,7 @@
 							<td><%=addFlight.getArrivalTime() %></td>	
 							<td><%=addFlight.getFlightEconomyPrice() %></td>	
 							<td><%=addFlight.getFlightBusinessPrice() %></td>	
-							<td><a href="bookYourFlight?flightNumber=<%=addFlight.getFlightNumber()%>">BookYourTicket</a></td>
+							<td><a href="user-book-flight.jsp?flightNumber=<%=addFlight.getFlightNumber()%>">BookYourTicket</a></td>
 						</tr>
 					<%}%>
 				<%} %>
